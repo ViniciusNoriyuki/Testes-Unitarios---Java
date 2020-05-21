@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="813ef337-cb7d-408c-ae47-93cae5467b78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZOSRTZmgyBFI7KpII8Aq3m1gKo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.commerce.sistema.usuario.facade" />
+      <recent name="br.com.commerce.sistema.produto.facade" />
+      <recent name="br.com.commerce.sistema.conta.facade" />
+      <recent name="br.com.commerce.sistema.pedido.facade" />
+      <recent name="br.com.commerce.sistema.conta" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ViniciusNoriyukiAcan\Documents\PROJETOS\Prova Testes Unitario\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean jacoco:prepare-agent install jacoco:report" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CommerceApplication">
+    <configuration name="CommerceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.CommerceApplication" />
+      <module name="Prova-Teste-Unitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.commerce.sistema.CommerceApplication" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.CommerceApplication" />
+      <module name="Prova Testes Unitario" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaMapperTest.deveConverterEntityParaSaida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova-Teste-Unitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.commerce.sistema.conta.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.commerce.sistema.conta.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.conta.mapper.ContaMapperTest" />
+      <option name="METHOD_NAME" value="deveConverterEntityParaSaida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoMapperTest.deveConverterEntityParaSaida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova-Teste-Unitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.commerce.sistema.pedido.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.commerce.sistema.pedido.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.pedido.mapper.PedidoMapperTest" />
+      <option name="METHOD_NAME" value="deveConverterEntityParaSaida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoMapperTest.deveConverterEntradaParaEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova-Teste-Unitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.commerce.sistema.pedido.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.commerce.sistema.pedido.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.pedido.mapper.PedidoMapperTest" />
+      <option name="METHOD_NAME" value="deveConverterEntradaParaEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioMapperTest.deveConverterEntityParaSaida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova-Teste-Unitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.commerce.sistema.usuario.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.commerce.sistema.usuario.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.usuario.mapper.UsuarioMapperTest" />
+      <option name="METHOD_NAME" value="deveConverterEntityParaSaida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioMapperTest.deveConverterEntradaParaEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova-Teste-Unitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.commerce.sistema.usuario.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.commerce.sistema.usuario.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.commerce.sistema.usuario.mapper.UsuarioMapperTest" />
+      <option name="METHOD_NAME" value="deveConverterEntradaParaEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CommerceApplication" />
+      <item itemvalue="JUnit.ContaMapperTest.deveConverterEntityParaSaida" />
+      <item itemvalue="JUnit.UsuarioMapperTest.deveConverterEntradaParaEntity" />
+      <item itemvalue="JUnit.UsuarioMapperTest.deveConverterEntityParaSaida" />
+      <item itemvalue="JUnit.PedidoMapperTest.deveConverterEntradaParaEntity" />
+      <item itemvalue="JUnit.PedidoMapperTest.deveConverterEntityParaSaida" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PedidoMapperTest.deveConverterEntradaParaEntity" />
+        <item itemvalue="JUnit.PedidoMapperTest.deveConverterEntityParaSaida" />
+        <item itemvalue="JUnit.UsuarioMapperTest.deveConverterEntityParaSaida" />
+        <item itemvalue="JUnit.UsuarioMapperTest.deveConverterEntradaParaEntity" />
+        <item itemvalue="JUnit.ContaMapperTest.deveConverterEntityParaSaida" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="813ef337-cb7d-408c-ae47-93cae5467b78" name="Default Changelist" comment="" />
+      <created>1584708638852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584708638852</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="0" width="575" height="680" key="#CommerceApplication" timestamp="1585246463315">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="360" y="0" width="575" height="680" key="#CommerceApplication/0.0.1280.680@0.0.1280.680" timestamp="1585246463315" />
+    <state x="310" y="0" key="#ContaFacadeTest.deveCriarConta" timestamp="1585232396125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="310" y="0" key="#ContaFacadeTest.deveCriarConta/0.0.1280.680@0.0.1280.680" timestamp="1585232396125" />
+    <state x="238" y="0" key="#ProdutoFacadeTest.deveCriarProduto" timestamp="1585237289208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="238" y="0" key="#ProdutoFacadeTest.deveCriarProduto/0.0.1280.680@0.0.1280.680" timestamp="1585237289208" />
+    <state x="233" y="0" key="#Project_Structure" timestamp="1584710932838">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584710932838" />
+    <state x="238" y="0" key="#UsuarioFacadeTest.deveCriarUsuario" timestamp="1585240771706">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="238" y="0" key="#UsuarioFacadeTest.deveCriarUsuario/0.0.1280.680@0.0.1280.680" timestamp="1585240771706" />
+    <state x="371" y="96" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584712230392">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="96" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1584712230392" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584721698601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584721698601" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1585569904627">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585569904627" />
+    <state x="356" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584711445292">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="356" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1584711445292" />
+    <state x="288" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585245234818">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="288" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1585245234818" />
+    <state x="438" y="200" width="470" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585324804089">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="200" width="470" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1585324804089" />
+    <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584728298322">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1584728298322" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1585570138464">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585570138464" />
+    <state width="1237" height="195" key="GridCell.Tab.0.bottom" timestamp="1585664557712">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585664557712" />
+    <state width="1237" height="195" key="GridCell.Tab.0.center" timestamp="1585664557712">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585664557712" />
+    <state width="1237" height="195" key="GridCell.Tab.0.left" timestamp="1585664557712">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585664557712" />
+    <state width="1237" height="195" key="GridCell.Tab.0.right" timestamp="1585664557712">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585664557712" />
+    <state width="1237" height="141" key="GridCell.Tab.1.bottom" timestamp="1585664557708">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="141" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585664557708" />
+    <state width="1237" height="141" key="GridCell.Tab.1.center" timestamp="1585664557708">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="141" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585664557708" />
+    <state width="1237" height="141" key="GridCell.Tab.1.left" timestamp="1585664557708">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="141" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585664557708" />
+    <state width="1237" height="141" key="GridCell.Tab.1.right" timestamp="1585664557708">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="141" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585664557708" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1585318195820">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585318195820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/commerce/sistema/conta/facade/ContaFacade.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/commerce/sistema/usuario/facade/UsuarioFacade.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/commerce/sistema/pedido/facade/PedidoFacade.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/conta/facade/ContaFacadeTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/produto/facade/ProdutoFacadeTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/conta/facade/ContaFacadeTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/pedido/facade/PedidoFacadeTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/usuario/facade/UsuarioFacadeTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/usuario/facade/UsuarioFacadeTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/produto/mapper/ProdutoMapperTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/pedido/facade/PedidoFacadeTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/pedido/facade/PedidoFacadeTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/conta/mapper/ContaMapperTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/conta/mapper/ContaMapperTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/usuario/mapper/UsuarioMapperTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/usuario/mapper/UsuarioMapperTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/pedido/mapper/PedidoMapperTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/commerce/sistema/pedido/mapper/PedidoMapperTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

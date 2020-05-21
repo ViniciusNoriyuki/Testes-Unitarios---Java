@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.commerce.sistema.conta.facade.ContaFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.83 sec - in br.com.commerce.sistema.conta.facade.ContaFacadeTest

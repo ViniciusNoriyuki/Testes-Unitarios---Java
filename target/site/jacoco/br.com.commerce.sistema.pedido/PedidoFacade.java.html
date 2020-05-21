@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PedidoFacade.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">aplicacao</a> &gt; <a href="index.source.html" class="el_package">br.com.commerce.sistema.pedido</a> &gt; <span class="el_source">PedidoFacade.java</span></div><h1>PedidoFacade.java</h1><pre class="source lang-java linenums">package br.com.commerce.sistema.pedido;
+
+import br.com.commerce.sistema.pedido.mapper.PedidoMapper;
+import br.com.commerce.sistema.pedido.model.PedidoEntity;
+import br.com.commerce.sistema.pedido.model.PedidoEntrada;
+import br.com.commerce.sistema.pedido.model.PedidoSaida;
+import br.com.commerce.sistema.pedido.repository.PedidoRepository;
+import br.com.commerce.sistema.produto.ProdutoFacade;
+import br.com.commerce.sistema.produto.model.ProdutoEntity;
+import br.com.commerce.sistema.usuario.UsuarioFacade;
+import br.com.commerce.sistema.usuario.model.UsuarioEntity;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Service
+<span class="fc" id="L19">public class PedidoFacade {</span>
+
+    @Autowired
+    PedidoRepository pedidoRepository;
+    @Autowired
+    ProdutoFacade produtoFacade;
+    @Autowired
+    UsuarioFacade usuarioFacade;
+
+    public PedidoSaida criarPedido(PedidoEntrada entrada) throws Exception {
+
+        // ENTRADA PARA ENTIDADE =&gt;
+<span class="fc" id="L31">        UsuarioEntity usuario = usuarioFacade.retornarUsuarioEntity(entrada.getUsuario());</span>
+
+<span class="fc" id="L33">        List&lt;ProdutoEntity&gt; listaProdutosEntity = preencherListaProdutos(entrada, usuario);</span>
+
+<span class="fc" id="L35">        PedidoEntity entidade = PedidoMapper.Instance.converterEntradaParaEntity(entrada, usuario, listaProdutosEntity);</span>
+
+        // ENTIDADE PARA BANCO =&gt;
+<span class="fc" id="L38">        entidade = pedidoRepository.save(entidade);</span>
+
+        // ENTIDADE PARA SAIDA
+<span class="fc" id="L41">        PedidoSaida saida = PedidoMapper.Instance.converterEntityParaSaida(entidade);</span>
+
+<span class="fc" id="L43">        return saida;</span>
+    }
+
+    public List&lt;ProdutoEntity&gt; preencherListaProdutos(PedidoEntrada entrada, UsuarioEntity usuarioEntity) throws Exception {
+<span class="fc" id="L47">        List&lt;ProdutoEntity&gt; listaProdutos = new ArrayList&lt;&gt;();</span>
+
+<span class="fc bfc" id="L49" title="All 4 branches covered.">        if (usuarioEntity.getListaContas().get(0).getTipoConta().equals(&quot;FREE&quot;) &amp;&amp; entrada.getListaProduto().size() &gt; 2){</span>
+<span class="fc" id="L50">            throw new Exception(&quot;Usuario free com mais de 2 produtos.&quot;);</span>
+        }
+
+<span class="fc bfc" id="L53" title="All 2 branches covered.">        for (int i = 0; i &lt; entrada.getListaProduto().size(); i++){</span>
+<span class="fc" id="L54">            ProdutoEntity produtoEntity = produtoFacade.retornarProdutoEntity(entrada.getListaProduto().get(i));</span>
+<span class="fc" id="L55">            listaProdutos.add(produtoEntity);</span>
+        }
+
+<span class="fc" id="L58">        return listaProdutos;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

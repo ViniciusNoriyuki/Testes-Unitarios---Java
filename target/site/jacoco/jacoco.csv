@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+aplicacao,br.com.commerce.sistema.usuario.controller,UsuarioController,10,0,0,0,3,0,2,0,2,0
+aplicacao,br.com.commerce.sistema.pedido.controller,PedidoController,10,0,0,0,3,0,2,0,2,0
+aplicacao,br.com.commerce.sistema.conta.controller,ContaController,10,0,0,0,3,0,2,0,2,0
+aplicacao,br.com.commerce.sistema.produto,ProdutoFacade,0,38,0,2,0,10,0,4,0,3
+aplicacao,br.com.commerce.sistema.produto.mapper,ProdutoMapper,0,5,0,0,0,1,0,1,0,1
+aplicacao,br.com.commerce.sistema,CommerceApplication,8,0,0,0,3,0,2,0,2,0
+aplicacao,br.com.commerce.sistema.pedido.mapper,PedidoMapper,0,5,0,0,0,1,0,1,0,1
+aplicacao,br.com.commerce.sistema.usuario,UsuarioFacade,0,60,0,2,0,14,0,4,0,3
+aplicacao,br.com.commerce.sistema.produto.controller,ProdutoController,10,0,0,0,3,0,2,0,2,0
+aplicacao,br.com.commerce.sistema.pedido,PedidoFacade,0,79,0,6,0,14,0,6,0,3
+aplicacao,br.com.commerce.sistema.conta.mapper,ContaMapper,0,5,0,0,0,1,0,1,0,1
+aplicacao,br.com.commerce.sistema.usuario.mapper,UsuarioMapper,0,5,0,0,0,1,0,1,0,1
+aplicacao,br.com.commerce.sistema.conta,ContaFacade,0,22,0,0,0,6,0,2,0,2

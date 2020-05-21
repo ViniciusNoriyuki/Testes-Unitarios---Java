@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PedidoMapper.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">aplicacao</a> &gt; <a href="index.source.html" class="el_package">br.com.commerce.sistema.pedido.mapper</a> &gt; <span class="el_source">PedidoMapper.java</span></div><h1>PedidoMapper.java</h1><pre class="source lang-java linenums">package br.com.commerce.sistema.pedido.mapper;
+
+import br.com.commerce.sistema.pedido.model.PedidoEntity;
+import br.com.commerce.sistema.pedido.model.PedidoEntrada;
+import br.com.commerce.sistema.pedido.model.PedidoSaida;
+import br.com.commerce.sistema.produto.model.ProdutoEntity;
+import br.com.commerce.sistema.usuario.model.UsuarioEntity;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.Mappings;
+import org.mapstruct.factory.Mappers;
+
+import java.util.List;
+
+@Mapper
+public interface PedidoMapper {
+
+<span class="fc" id="L18">    PedidoMapper Instance = Mappers.getMapper(PedidoMapper.class);</span>
+
+    @Mappings({
+            @Mapping(target = &quot;usuario&quot;, source = &quot;usuario&quot;),
+            @Mapping(target = &quot;listaProduto&quot;, source = &quot;listaProduto&quot;),
+            @Mapping(target = &quot;id&quot;, ignore = true)
+    })
+
+    PedidoEntity converterEntradaParaEntity (PedidoEntrada entrada, UsuarioEntity usuario, List&lt;ProdutoEntity&gt; listaProduto);
+    PedidoSaida converterEntityParaSaida (PedidoEntity entidade);
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
